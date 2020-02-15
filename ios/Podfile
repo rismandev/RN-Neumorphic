@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'RNSkeumorphism' do
-  # Pods for RNSkeumorphism
+target 'NeumorphismApp' do
+  # Pods for NeumorphismApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'RNSkeumorphism' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'RNSkeumorphismTests' do
+  target 'NeumorphismAppTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'RNSkeumorphism' do
   use_native_modules!
 end
 
-target 'RNSkeumorphism-tvOS' do
-  # Pods for RNSkeumorphism-tvOS
+target 'NeumorphismApp-tvOS' do
+  # Pods for NeumorphismApp-tvOS
 
-  target 'RNSkeumorphism-tvOSTests' do
+  target 'NeumorphismApp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

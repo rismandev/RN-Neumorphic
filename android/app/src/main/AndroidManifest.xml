@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.rnskeumorphism">
+  package="com.rismandev.neumorphism">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

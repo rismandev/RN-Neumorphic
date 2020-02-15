@@ -1,4 +1,4 @@
-package com.rnskeumorphism;
+package com.rismandev.neumorphism;
 
 import android.app.Application;
 import android.content.Context;
