@@ -31,10 +31,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 1.0,
     shadowRadius: 5,
     shadowColor: Color(colors.WHITE)
-      .darken(0.15)
+      .darken(0.1)
       .alpha(0.5),
+    borderWidth: 1,
+    borderColor: Color(colors.WHITE),
     margin: 10,
-    elevation: 5,
+    // elevation: 5,
   },
   ButtonInline: {
     backgroundColor: colors.WHITE,
@@ -49,7 +51,9 @@ const styles = StyleSheet.create({
     shadowColor: Color(colors.WHITE)
       .darken(0.15)
       .alpha(0.2),
-    elevation: 2,
+    borderWidth: 1,
+    borderColor: Color(colors.WHITE),
+    // elevation: 2,
   },
   Left: {
     justifyContent: 'center',
